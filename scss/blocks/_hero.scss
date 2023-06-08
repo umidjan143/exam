@@ -1,0 +1,85 @@
+.hero{
+    width: 1950px;
+    height: 650px;
+    border: 0px solid;
+    background-color:  #010101;
+    background-image: url(/images/Mask\ Group\ \(3\).png);
+
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+
+
+    &-container{
+        width: 80%;
+        height: 85%;
+        border: 1px white;
+
+        &-list{
+            list-style: none;
+            &-item{
+
+                &-h{
+                color: white;font-style: normal;
+                font-weight: 700;
+                font-size: 60px;
+                width: 805px;
+                height: 122px;
+                margin-left: 90px; 
+                
+                }
+                &-p{
+                    width: 607px;
+                    height: 73px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 23px;
+                    margin-left: 90px;
+                    color: #FFFFFF;
+                }
+                &-button{
+                    margin-left: 90px;
+                
+                    padding: 19px 53px;
+                    gap: 5px;
+                    width: 352px;
+                    height: 58px;
+                    background: #FF0000;
+            }
+        }
+    }
+    
+}
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .hero{
+        width: 100%;
+        background-size: 90%;
+        &-container{
+            width: 90%;
+            &-list{ 
+                &-item{display: flex;
+                    
+                        &-h{
+                            
+                            width: 558px;
+                            height: 106px;
+                        }&-p{
+                            margin-top: 40px;
+                            width: 558px;
+                            height: 106px;
+                        }
+                    
+                }
+            }
+        }
+    }
+    
+}
